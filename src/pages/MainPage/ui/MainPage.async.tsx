@@ -6,5 +6,3 @@ export const AsyncMainPage = lazy(() => new Promise( res => {
         res(import('./MainPage'))
     }, 500)
 }))
-
-export default AsyncMainPage;
